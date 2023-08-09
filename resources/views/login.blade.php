@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-        <h1>Login</h1>
+        <h1>Login belajar</h1>
         <form action="{{ route('login') }}" method="POST">
             @csrf
             <div class="mb-3">
