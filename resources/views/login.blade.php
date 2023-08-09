@@ -16,7 +16,7 @@
         <form action="{{ route('login') }}" method="POST">
             @csrf
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <label for="exampleInputEmail1" class="form-label">Email RAWR</label>
               <input name="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" id="exampleInputEmail1" aria-describedby="emailHelp">
               @error('email')
                   <div class="invalid-feedback">
